@@ -41,7 +41,7 @@ class MainPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => const EventEditingPage()),
             );
           },
-          child: Icon(
+          child: const Icon(
             Icons.add,
             color: Colors.white,
           ),
